@@ -8,7 +8,6 @@ const fs = require('fs');
 const init = () => {
   inquirer.prompt(questions)
   .then((data) => {
-    console.log('Creating logo');
     switch (`${data.shape}`) {
       case 'Circle': 
       const circle = new Circle(data.fill, data.text, data.textColor);
