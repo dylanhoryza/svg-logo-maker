@@ -1,3 +1,6 @@
 <svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50 15, 100 100, 0 100"
-     fill="green" stroke-width="5"/></svg>
+    <rect x="10" y="10" width="200" height="200" fill="green" stroke-width="5"/> 
+    <text xmlns="http://www.w3.org/2000/svg" x="50%" y="50%" text-anchor="middle" font-size="50px" fill="blue" dy=".3em">
+    dlh
+   </text>
+    </svg>
