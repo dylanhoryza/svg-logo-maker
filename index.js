@@ -1,10 +1,10 @@
-//Index.js file
-
+// Variables to require other files and inquirer
 const { Circle, Triangle, Square } = require('./lib/shapes.js');
 const questions = require('./lib/questions.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Function that uses the questions from questions.js to create prompt and render each shape into a SVG file
 const init = () => {
   inquirer.prompt(questions)
   .then((data) => {
